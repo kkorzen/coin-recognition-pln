@@ -8,7 +8,7 @@ This project was heavily inspired by the video given below and its creator, [Mur
 
 
 # About
-This project, as mentioned in the Introdcution focuses on recognition and identification of coins, specifically PLN (Polish Zloty New) denominal. All the code written was to related to a total of three libraries:
+This project, as mentioned in the Introdcution focuses on recognition and identification of coins, specifically PLN (Polish Zloty New) denominal. All the code written was related to a total of three libraries:
 - OpenCv
 - numpy
 - cvzone (which is a wrapper library for OpenCV)
