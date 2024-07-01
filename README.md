@@ -19,7 +19,7 @@ Althoguh the GitHub repository contains folder with coins photos, this software 
 
 To make the software do its job, specific threshold values were defined, different for each coin. This requires camera to be mounted on a **constant high** which in this case was **16 centimeters**. Although there is a simple trackbar menu made specifically for setting coins sizes it is recommended to keep the distance between camera and coins at around 10 - 18 centimeters.
 
-There is a total of two "debug" functions ```AdjsutCannyThresholdsWindow()``` and ```AdjustCoinSizesWindow()``` which are responsible for displaying both trackbar windows and handling all the possible adjustments. To make them appear at the program's start-up ```is_debug``` flag has to be set (```is_debug = 1```).
+There is a total of two "debug" functions ```AdjustCannyThresholdsWindow()``` and ```AdjustCoinSizesWindow()``` which are responsible for displaying both trackbar windows and handling all the possible adjustments. To make them appear at the program's start-up ```is_debug``` flag has to be set (```is_debug = 1```).
 
 ## Sugestions
 High quality camera is not necessary as the identification is based solely on coin sizes. To be honest, it's even not recomended because of Canny filter "catchig" all the symbols, eg. eagle, text.
